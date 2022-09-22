@@ -1,0 +1,33 @@
+.key{
+    display: grid;
+    place-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: bisque;
+    border-radius: 10px;
+    border:black 1px solid;
+    font-size: 20px;
+    box-shadow: 3px 3px 15px 2px rgb(0,0,0);
+
+
+}
+.grid-span
+{grid-column: span 2;
+    width: 120px;
+ min-width: 120px;}
+
+.calculator{
+    padding: 0%;
+    border-color: black;
+    place-content: center;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4,60px);
+}
+#led{
+    border-radius: 10px;
+    font-size:40px;
+    grid-column: span 4;
+    box-shadow: 3px 3px 15px 2px rgb(0,0,0);
+    height: 60px;
+}
